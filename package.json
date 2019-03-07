@@ -1,0 +1,50 @@
+{
+  "name": "gitRepoFetcher",
+  "version": "1.0.0",
+  "description": "react-redux-antd boiler plate",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode development",
+    "prodBuild": "webpack --mode production",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnjalMohammed/gitRepoFetcher.git"
+  },
+  "author": "AnjalMohammed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnjalMohammed/gitRepoFetcher/issues"
+  },
+  "homepage": "https://github.com/AnjalMohammed/gitRepoFetcher#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "antd": "^3.10.4",
+    "axios": "^0.18.0",
+    "prop-types": "^15.6.2",
+    "react-hot-loader": "^4.3.12",
+    "react-redux": "^5.1.0",
+    "redux": "^4.0.1",
+    "redux-immutable": "^4.0.0",
+    "styled-components": "^4.0.3"
+  }
+}
